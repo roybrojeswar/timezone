@@ -5,7 +5,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="528fd94a-eda4-4099-a682-45e45dfb80c8" basePath="/timezone" >
-		<http:listener-connection host="0.0.0.0" port="8088" />
+		<http:listener-connection host="0.0.0.0" port="8086" />
 	</http:listener-config>
 	<flow name="timezoneFlow" doc:id="a1b2c31b-3695-4513-b088-4c68ce030b51" >
 		<http:listener doc:name="Listener" doc:id="7a423c64-8e7f-4d63-b0b8-248ab81983fa" config-ref="HTTP_Listener_config" path="/"/>
