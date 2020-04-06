@@ -30,8 +30,8 @@
 				<configuration>
 				<cloudHubDeployment>
                     <muleVersion>4.2.2</muleVersion>
-                    <username>BrojeswarRoyMuleSoft</username>
-                    <password>Brojeswar@2019</password>
+                    <username>hassans88</username>
+                    <password>Mhsardar88@1988</password>
                     <environment>Sandbox</environment>
                    <workerType>Micro</workerType>
                     <workers>1</workers>
