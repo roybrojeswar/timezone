@@ -5,7 +5,7 @@
 
 	<groupId>com.mycompany</groupId>
 	<artifactId>timezone</artifactId>
-    <version>1.0.5-SNAPSHOT</version>
+    <version>1.0.6-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
 	<name>timezone</name>
@@ -35,7 +35,7 @@
                     <environment>Sandbox</environment>
                    <workerType>Micro</workerType>
                     <workers>1</workers>
-                    <applicationName>timezone</applicationName>
+                    <applicationName>timezonetest-service-api-BR</applicationName>
             </cloudHubDeployment>
 				</configuration>
 			</plugin>
